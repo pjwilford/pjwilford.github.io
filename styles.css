@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica;
+}
+
+nav li {
+    text-align: center;
+}
+
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    text-align: center;
+}
+
+.itali {
+    font-style: italic;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.synt {
+    color: red;
+    background-color: lavenderblush;
+    border: 1px solid;
+}
+
+.examp {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid purple;
+}
+
+#css-cheat {
+    padding: 0;
+}

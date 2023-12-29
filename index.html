@@ -1,9 +1,75 @@
-<html>
-
-<body>
-  <h1>PJ Wilford</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
-
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Cheatsheet</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#html-cheat">HTML</a></li>
+                <li><a href="#css-cheat">CSS</a></li>
+            </ul>
+        </nav>
+    <body>
+        <h1 id="html-cheat">HTML Cheatsheet</h1>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </thead>
+        <tr>
+            <td class="itali">!DOCTYPE</td>
+            <td class="synt">&lt;!DOCTYPE&gt;</td>
+            <td class="examp">Places standard set-up for your HTML documentation</td>
+        </tr>
+        <tr>
+            <td class="itali">html</td>
+            <td class="synt">&lt;html&gt;</td>
+            <td class="examp">between the opening and closing tags, this is where you write your html code for your site build.</td>
+        </tr>
+        <tr>
+            <td class="itali">link</td>
+            <td class="synt">&lt;link&gt;</td>
+            <td class="examp">When you want to call in information from another file or directory in your project, you can link to it using this element.</td>
+        </tr>
+        </table>
+        <h2 id="css-cheat">CSS Cheatsheet</h2>
+        <table>
+            <thead>
+                <th>Property</th>
+                <th>Syntax</th>
+                <th>Outcome</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="css-itali">*</td>
+                    <td class="synt">* {}</td>
+                    <td class="examp">Affects styling "universally," aka will affect the entire document.</td>
+                </tr>
+                <tr>
+                    <td class="css-itali">body</td>
+                    <td class="synt">body {}</td>
+                    <td class="examp">Affects styling only for the html code written in the &lt;body&gt; element</td>
+                </tr>
+                <tr>
+                    <td class="css-itali">.(class)</td>
+                    <td class="synt">.(class) {}</td>
+                    <td class="examp">Affects styling only for the named class ("class" is changed to whatever you've titled the class attribute of the element you're trying to style.)  Can affect one or multiple items - dependant on the class name and how many have that same class name.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>There are many more selectors and properties that can be used with HTML and CSS. Over time, this list can be added to using the tools and techniques learned on Codecademy.com. </p>
+    <hr>
+    <footer>
+        This is a work in progress! Click below to link to:
+        <ul>
+            <li><a href="#html-cheat">HTML Cheatsheet</a></li>
+            <li><a href="#css-cheat">CSS Cheatsheet</a></li>
+        </ul>
+    </footer>
+    </main>
+    </body>
 </html>
